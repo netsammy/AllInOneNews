@@ -219,7 +219,6 @@ D:\GitHub2023\AllInOneNews\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotn
 D:\GitHub2023\AllInOneNews\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 D:\GitHub2023\AllInOneNews\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 D:\GitHub2023\AllInOneNews\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-D:\GitHub2023\AllInOneNews\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 D:\GitHub2023\AllInOneNews\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 D:\GitHub2023\AllInOneNews\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 D:\GitHub2023\AllInOneNews\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs
