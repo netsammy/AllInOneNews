@@ -1,0 +1,79 @@
+{
+	"Menu": [
+
+
+		{
+			"Category": "News",
+			"Name": "ARY News",
+			"Country": "PK",
+			"URL": "https://www.youtube.com/watch?v=sUKwTVAc0Vo&pp=ygUSbGl2ZSBuZXdzIHBha2lzdGFu&mode=theatre",
+			"Image": "https://img.youtube.com/vi/sUKwTVAc0Vo/mqdefault.jpg"
+		},
+		{
+			"Category": "News",
+			"Name": "Samaa TV",
+			"Country": "PK",
+			"URL": "https://www.youtube.com/watch?v=q0TTqU1K7-s&pp=ygUSbGl2ZSBuZXdzIHBha2lzdGFu&mode=theatre",
+			"Image": "https://img.youtube.com/vi/q0TTqU1K7-s/mqdefault.jpg"
+		},
+
+		{
+			"Category": "News",
+			"Name": "Dunya News",
+			"Country": "PK",
+			"URL": "https://www.youtube.com/watch?v=_Q6X1VylryE&mode=theatre",
+			"Image": "https://img.youtube.com/vi/_Q6X1VylryE/mqdefault.jpg"
+		},
+
+		{
+			"Category": "News",
+			"Name": "Geo News",
+			"Country": "PK",
+			"URL": "https://www.youtube.com/watch?v=O3DPVlynUM0&mode=theatre",
+			"Image": "https://img.youtube.com/vi/O3DPVlynUM0/mqdefault.jpg"
+		},
+		{
+			"Category": "News",
+			"Name": "ABC News Live",
+			"Country": "US",
+			"URL": "https://www.youtube.com/watch?v=w_Ma8oQLmSM",
+			"Image": "https://img.youtube.com/vi/w_Ma8oQLmSM/mqdefault.jpg"
+		},
+
+		{
+			"Category": "News",
+			"Name": "Al Jazeera English",
+			"Country": "US",
+			"URL": "https://www.youtube.com/watch?v=gCNeDWCI0vo",
+			"Image": "https://img.youtube.com/vi/gCNeDWCI0vo/mqdefault.jpg"
+		},
+
+		{
+			"Category": "News",
+			"Name": "TYT News",
+			"Country": "US",
+			"URL": "https://www.youtube.com/watch?v=OkrPN0ZAhkw",
+			"Image": "https://img.youtube.com/vi/OkrPN0ZAhkw/mqdefault.jpg"
+		},
+
+		{
+			"Category": "News",
+			"Name": "BiparJoy Alert News",
+			"Country": "IND",
+			"URL": "https://www.youtube.com/watch?v=FE05kObCpaY",
+			"Image": "https://img.youtube.com/vi/FE05kObCpaY/mqdefault.jpg"
+		},
+
+		{
+			"Category": "News",
+			"Name": "BiparJoy Alert",
+			"Country": "IND",
+			"URL": "https://www.youtube.com/watch?v=qlNiwqORZ8U",
+			"Image": "https://img.youtube.com/vi/qlNiwqORZ8U/mqdefault.jpg"
+		}
+		
+
+
+
+	]
+}
