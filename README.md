@@ -1,1 +1,2 @@
 # AllInOneNews
+# SonarCloud
