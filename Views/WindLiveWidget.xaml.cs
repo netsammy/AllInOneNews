@@ -1,13 +1,13 @@
 ﻿namespace AllinOneNews.Views;
 
-public partial class WindLiveWidget:VerticalStackLayout
+public partial class WindLiveWidget : VerticalStackLayout
 {
     Random rand;
     System.Timers.Timer aTimer;
 
     public WindLiveWidget()
     {
-        InitializeComponent();            
+        InitializeComponent();
     }
 
     public void OnTapped(object sender, EventArgs e)
@@ -37,7 +37,8 @@ public partial class WindLiveWidget:VerticalStackLayout
     {
         var direction = GetDirection();
 
-        this.Dispatcher.Dispatch(() => {
+        this.Dispatcher.Dispatch(() =>
+        {
             Needle.RotateTo(WindValues[direction], 50, Easing.SpringOut);
         });
     }

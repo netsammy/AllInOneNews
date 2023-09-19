@@ -1,11 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
-using System.IO;
-using System.Linq;
-using System.Net;
 using System.Net.Http.Json;
-using System.Threading.Channels;
 
 //All-in-One News
 //AllinOneNews
@@ -74,7 +70,7 @@ public class WeatherService : IWeatherService
                 var menu = JObject.Parse(jsonData)["Menu"].ToString();
                 channels = JsonConvert.DeserializeObject<List<Channels>>(menu, jsonSettings);
 
-                var channelsSorted = channels.OrderBy(c => c.Country );
+                var channelsSorted = channels.OrderBy(c => c.Country);
 
                 return channelsSorted;
             }
@@ -97,10 +93,11 @@ public class WeatherService : IWeatherService
 
             //return Task.FromResult(channels);
 
-        }catch(Exception ex)
+        }
+        catch (Exception ex)
         {
             List<Channels> channels = new List<Channels>();
-            Channels channel= new Channels();
+            Channels channel = new Channels();
             channel.Name = ex.Message;
             channel.Category = ex.StackTrace;
 
@@ -127,10 +124,12 @@ public class WeatherService : IWeatherService
         //    //}
         //}
 
+#pragma warning disable CS0162 // Unreachable code detected
         return null;
+#pragma warning restore CS0162 // Unreachable code detected
 
     }
 
-        
+
 
 }

@@ -1,5 +1,4 @@
 using UserNotifications;
-using AllinOneNews.Services;
 
 namespace AllinOneNews.MacCatalyst;
 
@@ -7,7 +6,8 @@ public class NotificationService : INotificationService
 {
     public void ShowNotification(string title, string body)
     {
-        UNUserNotificationCenter.Current.RequestAuthorization(UNAuthorizationOptions.Alert, (approved, err) => {
+        UNUserNotificationCenter.Current.RequestAuthorization(UNAuthorizationOptions.Alert, (approved, err) =>
+        {
             if (!approved)
                 return;
 
@@ -19,7 +19,8 @@ public class NotificationService : INotificationService
 
             var trigger = UNTimeIntervalNotificationTrigger.CreateTrigger(0.25, false);
             var request = UNNotificationRequest.FromIdentifier(Guid.NewGuid().ToString(), content, trigger);
-            UNUserNotificationCenter.Current.AddNotificationRequest(request, (err) => {
+            UNUserNotificationCenter.Current.AddNotificationRequest(request, (err) =>
+            {
                 if (err != null)
                     throw new System.Exception($"Failed to schedule notification: {err}");
             });

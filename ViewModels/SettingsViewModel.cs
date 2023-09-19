@@ -35,7 +35,7 @@ public class SettingsViewModel : INotifyPropertyChanged
 
     public SettingsViewModel()
     {
-       // SelectUnits = new Command<string>(OnSelectUnits);
+        // SelectUnits = new Command<string>(OnSelectUnits);
     }
 
     //private void OnSelectUnits(string unit)

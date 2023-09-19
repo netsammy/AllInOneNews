@@ -10,7 +10,7 @@ public partial class MapPage : ContentPage
     }
 
 
-   // private WebView _webView;
+    // private WebView _webView;
 
     public MapPage(string url)
     {
@@ -66,7 +66,7 @@ public partial class MapPage : ContentPage
     {
 
         base.OnDisappearing();
-       
+
         try
         {
 
@@ -90,10 +90,14 @@ public partial class MapPage : ContentPage
     }
 
 
-   
 
+
+#pragma warning disable CS0169 // The field 'MapPage._instance' is never used
     private static MapPage _instance;
+#pragma warning restore CS0169 // The field 'MapPage._instance' is never used
+#pragma warning disable CS0169 // The field 'MapPage._url' is never used
     private string _url;
+#pragma warning restore CS0169 // The field 'MapPage._url' is never used
 
-   
+
 }

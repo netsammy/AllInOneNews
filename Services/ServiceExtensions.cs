@@ -12,7 +12,7 @@ public static class ServiceProvider
 #elif ANDROID
             MauiApplication.Current.Services;
 #elif IOS || MACCATALYST
-			MauiUIApplicationDelegate.Current.Services;
+            MauiUIApplicationDelegate.Current.Services;
 #else
 			null;
 #endif

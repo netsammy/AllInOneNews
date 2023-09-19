@@ -1,6 +1,4 @@
-﻿using Microsoft.Maui.Controls.Xaml;
-using AllinOneNews.ViewModels;
-using Microsoft.Maui.Controls;
+﻿using AllinOneNews.ViewModels;
 
 
 namespace AllinOneNews.Pages;
@@ -57,21 +55,23 @@ public partial class FavoritesPage : ContentPage
                 var image = (Button)sender;
                 var data = image.BindingContext;
                 string url = ((AllinOneNews.Channels)image.BindingContext).URL;
-                
+
                 await Navigation.PushAsync(new MapPage(url));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Handle the exception
             }
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             //Debug.WriteLine($"err: {ex.Message}");
         }
     }
 
+#pragma warning disable CS0169 // The field 'FavoritesPage._mapPageInstance' is never used
     private MapPage _mapPageInstance;
+#pragma warning restore CS0169 // The field 'FavoritesPage._mapPageInstance' is never used
 
     async void Image_Tapped(object sender, EventArgs e)
     {
@@ -86,7 +86,7 @@ public partial class FavoritesPage : ContentPage
             var mapPage = new MapPage(url);
             await Navigation.PushAsync(mapPage);
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             // Handle the exception
         }

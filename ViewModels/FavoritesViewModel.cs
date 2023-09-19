@@ -1,9 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using AllinOneNews;
-using Microsoft.Maui.Networking;
-//using Channels = AllinOneNews.Channels;
+
 
 namespace AllinOneNews.ViewModels;
 
@@ -79,7 +77,7 @@ public class FavoritesViewModel : INotifyPropertyChanged
 
     public FavoritesViewModel()
     {
-        
+
 
         Fetch();
     }
