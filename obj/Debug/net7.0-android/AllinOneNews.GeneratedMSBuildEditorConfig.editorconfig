@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = AllinOneNews
+build_property.ProjectDir = D:\GitHub2023\AllInOneNews\
+
+[D:/GitHub2023/AllInOneNews/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/GitHub2023/AllInOneNews/Pages/FavoritesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Pages.FavoritesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FavoritesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FavoritesPage.xaml
+
+[D:/GitHub2023/AllInOneNews/Pages/MapPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Pages.MapPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MapPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MapPage.xaml
+
+[D:/GitHub2023/AllInOneNews/Pages/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Pages.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SettingsPage.xaml
+
+[D:/GitHub2023/AllInOneNews/Resources/Styles/DefaultTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Resources.Styles.DefaultTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\DefaultTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\DefaultTheme.xaml
+
+[D:/GitHub2023/AllInOneNews/Views/CurrentWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Views.CurrentWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CurrentWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CurrentWidget.xaml
+
+[D:/GitHub2023/AllInOneNews/Views/Next24HrWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Views.Next24HrWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Next24HrWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Next24HrWidget.xaml
+
+[D:/GitHub2023/AllInOneNews/Views/Next7DWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Views.Next7DWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Next7DWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Next7DWidget.xaml
+
+[D:/GitHub2023/AllInOneNews/Views/WidgetsPanel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Views.WidgetsPanel.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WidgetsPanel.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WidgetsPanel.xaml
+
+[D:/GitHub2023/AllInOneNews/Views/WindLiveWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AllinOneNews.Views.WindLiveWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WindLiveWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WindLiveWidget.xaml
